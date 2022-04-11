@@ -1,0 +1,23 @@
+using System;
+
+namespace Lab_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Enter the number to test = ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the number you want to multiply " + num1 + " with: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            int result = num1 * num2;
+
+            Console.WriteLine("Using Multiplication Assignment operator...");
+            Console.WriteLine("Updated Value of your test number = " + num1 * num2);
+            Console.ReadKey();
+        }
+    }
+}
